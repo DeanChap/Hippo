@@ -39,7 +39,7 @@ const start = async () => {
     payload.logger.info("Next.js started");
 
     app.listen(PORT, async () => {
-      payload.lgger.info(
+      payload.logger.info(
         `Next.js app URL: ${process.env.NEXT_PUBLIC_SERVER_URL}`
       );
     });
