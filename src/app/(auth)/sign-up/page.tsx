@@ -18,7 +18,7 @@ import { trpc } from "@/trpc/client";
 
 
 
-  const { data } = trpc.anyApiRoute.useQuery()
+  // const { data } = trpc.anyApiRoute.useQuery()
 
   const onSubmit = ({ 
     email, 
