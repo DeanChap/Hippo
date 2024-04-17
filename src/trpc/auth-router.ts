@@ -20,12 +20,12 @@ export const authRouter = router({
         },
       });
 
-      if (users.length !== 0)
-        throw new TRPCError({ code: "CONFLICT" });
+      // if (users.length !== 0)
+      //   throw new TRPCError({ code: "CONFLICT" });
 
-      await payload.create({
-        collection: "users",
-        data: {},
-      })
+      // await payload.create({
+      //   collection: "users",
+      //   data: {},
+      // })
     }),
 });
