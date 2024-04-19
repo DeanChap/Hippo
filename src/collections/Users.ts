@@ -11,14 +11,14 @@ export const Users: CollectionConfig = {
     {
       name: "role",
       type: "select",
-      options: [
-        {
-          label: "Admin",
-          value: "admin",
-        },
-        {
-          label: "User",
-          value: "user",
+      // options: [
+      //   {
+      //     label: "Admin",
+      //     value: "admin",
+      //   },
+      //   {
+      //     label: "User",
+      //     value: "user",
         },
       ],
     },
