@@ -37,6 +37,7 @@ const start = async () => {
 
   nextApp.prepare().then(() => {
     // payload.logger.info("Next.js started");
+    // add paylogger
 
     app.listen(PORT, async () => {
       // payload.logger.info(
